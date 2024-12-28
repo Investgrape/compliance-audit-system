@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Compliance Audit System for Financial Institutions" />
     <title>Compliance Audit System</title>
-    <script type="module" crossorigin src="./assets/index.js"></script>
-    <link rel="stylesheet" href="./assets/index.css">
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+</head>
+<body>
     <div id="root"></div>
-  </body>
+    <script type="text/javascript">
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        const App = () => {
+            const [activeTab, setActiveTab] = React.useState('overview');
+            return React.createElement('div', { className: 'min-h-screen bg-gray-50' },
+                React.createElement('div', { className: 'max-w-7xl mx-auto px-4 py-8' },
+                    React.createElement('h1', { className: 'text-3xl font-bold text-gray-800 mb-8' }, 'Compliance Audit System'),
+                    React.createElement('div', { className: 'bg-white rounded-lg shadow p-6' },
+                        React.createElement('p', { className: 'text-gray-600' }, 'Welcome to your compliance management dashboard')
+                    )
+                )
+            );
+        };
+        root.render(React.createElement(App));
+    </script>
+</body>
 </html>
