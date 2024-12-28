@@ -1,1 +1,52 @@
-ewogICJuYW1lIjogImNvbXBsaWFuY2UtYXVkaXQtc3lzdGVtIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIlJlYWN0LWJhc2VkIGNvbXBsaWFuY2UgYXVkaXQgZG9jdW1lbnRhdGlvbiBzeXN0ZW0gZm9yIGZpbmFuY2lhbCBpbnN0aXR1dGlvbnMiLAogICJob21lcGFnZSI6ICJodHRwczovL2ludmVzdGdyYXBlLmdpdGh1Yi5pby9jb21wbGlhbmNlLWF1ZGl0LXN5c3RlbSIsCiAgInByaXZhdGUiOiBmYWxzZSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBjb21wb25lbnRzL3VpIjogIl4xLjAuMCIsCiAgICAiQGhlYWRsZXNzdWkvcmVhY3QiOiAiXjEuNy4xNSIsCiAgICAiQHRhaWx3aW5kdWkvY29yZSI6ICJeNC4wLjAiLAogICAgImx1Y2lkZS1yZWFjdCI6ICJeMC4yNjMuMSIsCiAgICAicmVhY3QiOiAiXjE4LjIuMCIsCiAgICAicmVhY3QtZG9tIjogIl4xOC4yLjAiLAogICAgInJlY2hhcnRzIjogIl4yLjkuMCIsCiAgICAidGFpbHdpbmRjc3MiOiAiXjMuMy4wIgogIH0sCiAgInNjcmlwdHMiOiB7CiAgICAic3RhcnQiOiAicmVhY3Qtc2NyaXB0cyBzdGFydCIsCiAgICAiYnVpbGQiOiAicmVhY3Qtc2NyaXB0cyBidWlsZCIsCiAgICAicHJlZGVwbG95IjogIm5wbSBydW4gYnVpbGQiLAogICAgImRlcGxveSI6ICJnaC1wYWdlcyAtZCBidWlsZCIsCiAgICAidGVzdCI6ICJyZWFjdC1zY3JpcHRzIHRlc3QiLAogICAgImVqZWN0IjogInJlYWN0LXNjcmlwdHMgZWplY3QiCiAgfSwKICAiZXNsaW50Q29uZmlnIjogewogICAgImV4dGVuZHMiOiBbCiAgICAgICJyZWFjdC1hcHAiCiAgICBdCiAgfSwKICAiYnJvd3NlcnNsaXN0IjogewogICAgInByb2R1Y3Rpb24iOiBbCiAgICAgICI+MC4yJSIsCiAgICAgICJub3QgZGVhZCIsCiAgICAgICJub3Qgb3BfbWluaSBhbGwiCiAgICBdLAogICAgImRldmVsb3BtZW50IjogWwogICAgICAibGFzdCAxIGNocm9tZSB2ZXJzaW9uIiwKICAgICAgImxhc3QgMSBmaXJlZm94IHZlcnNpb24iLAogICAgICAibGFzdCAxIHNhZmFyaSB2ZXJzaW9uIgogICAgXQogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAYmFiZWwvY29yZSI6ICJeNy4yMS4wIiwKICAgICJAYmFiZWwvcGx1Z2luLXRyYW5zZm9ybS1yZWFjdC1qc3giOiAiXjcuMjEuMCIsCiAgICAiQGJhYmVsL3ByZXNldC1lbnYiOiAiXjcuMjEuMCIsCiAgICAiQGJhYmVsL3ByZXNldC1yZWFjdCI6ICJeNy4yMS4wIiwKICAgICJAdGFpbHdpbmRjc3MvYXNwZWN0LXJhdGlvIjogIl4wLjQuMiIsCiAgICAiQHRhbGx3aW5kY3NzL2Zvcm1zIjogIl4wLjUuNyIsCiAgICAiQHRlc3RpbmctbGlicmFyeS9qZXN0LWRvbSI6ICJeNS4xNy4wIiwKICAgICJAdGVzdGluZy1saWJyYXJ5L3JlYWN0IjogIl4xMy40LjAiLAogICAgIkB0ZXN0aW5nLWxpYnJhcnkvdXNlci1ldmVudCI6ICJeMTQuNC4zIiwKICAgICJAdHlwZXMvamVzdCI6ICJeMs4uMy4xMCIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjE4LjE1LjEzIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE4LjAuMzQiLAogICAgIkB0eXBlcy9yZWFjdC1kb20iOiAiXjE4LjAuMTEiLAogICAgImF1dG9wcmVmaXhlciI6ICJeMTAuNC4xNCIsCiAgICAiZ2gtcGFnZXMiOiAiXjUuMC4wIiwKICAgICJwb3N0Y3NzIjogIl44LjQuMjMiLAogICAgInRhaWx3aW5kY3NzIjogIl4zLjMuMCIsCiAgICAidHlwZXNjcmlwdCI6ICJeNC45LjUiCiAgfQp9
+{
+  "name": "compliance-audit-system",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "https://investgrape.github.io/compliance-audit-system",
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.23",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^4.9.5"
+  }
+}
